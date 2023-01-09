@@ -1,0 +1,115 @@
+
+html , body{
+    font-family: JF_reg;
+}
+@font-face {
+    font-family: JF_bold;
+    src: url(../fonts/jf_bold.ttf);
+}
+@font-face {
+    font-family: JF_reg;
+    src: url(../fonts/jf_reg.ttf);
+}
+@font-face {
+    font-family: GE_SS;
+    src: url(../fonts/GE\ SS\ TV\ Bold.ttf);
+}
+@font-face {
+    font-family: Myriad-reg;
+    src: url(../fonts/Myriad_Regular.ttf);
+}
+.k{
+    background-color: rgb(249, 249, 246);
+    height: 600px;
+    width: 650px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#div1{
+    float: left;
+    margin-right:20px ;
+}
+
+#heading2{
+    display: inline;
+ 
+}
+
+h1{
+    display: inline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+  
+}
+
+#heading1{
+    margin: 50px -200px 50px 128px;
+    font-size: 40px;
+    font-family: GE_SS;
+}
+#heading2{
+    margin: 50px -120px 50px 50px;
+    font-size: 40px;
+    font-family: GE_SS;
+    color:rgb(10, 10, 144)
+}
+
+#p1{margin:40px 20px;
+
+text-align: center;}
+
+#sss{
+    
+    padding-top: 100px;
+    
+}
+
+
+#input1{
+    margin: 80px 50px 10px 16px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border-style: none;
+    border-bottom:2px solid navy;
+}
+
+#img2{
+  margin-left:32px; 
+  margin-top: 80px;
+  float: left;
+}
+
+#input2{
+    margin:10px 50px 10px 16px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border-style: none;
+    border-bottom:2px solid navy;
+}
+
+    #img3{
+        margin-left:32px; 
+          margin-top: 8px;
+          float: left;  
+        }
+
+#btn{   
+    display: inline-block;
+    color: #f3f2f2;
+    background-color: navy;
+    float: right;
+    margin: 25px;
+    font-size: 17px;
+    border-radius: 50px;
+    font-family: jf_bold;
+    transition: all 0.5s linear;}
+
+#btn:hover{
+    background-color: rgb(210, 210, 210);
+    box-shadow: 0 0 14px 5px rgb(169, 169, 172);}
